@@ -146,62 +146,93 @@ java Aguzar_LibraryBorrowingSystem
 
 8. Screenshots of the System
 Screenshot 1: Main menu
+
 Main menu
+
 The main menu shows all the operations for book records and borrowing requests.
 <img width="1006" height="834" alt="menu" src="https://github.com/user-attachments/assets/e5bd96d2-2e7c-4d34-a466-8084074d3ea7" />
 
 Screenshot 2: Adding a record and displaying stored records
+
 Add and display books
+
 A new book is added by entering its title, author, publication year and number of copies. The list of stored books is then displayed, including the new book.
+
 <img width="760" height="314" alt="add book" src="https://github.com/user-attachments/assets/147af624-0f4a-4bc7-91b7-264897e4d35c" />
 <img width="1464" height="478" alt="book records" src="https://github.com/user-attachments/assets/650974a4-359f-4a10-a2f1-bc7ba4562945" />
 
 Screenshot 3: Enqueue
+
 Enqueue
+
 Registering a borrowing request adds it to the back of the queue.
+
 <img width="1412" height="674" alt="registermigs" src="https://github.com/user-attachments/assets/f7db1b41-b1f4-4496-85c3-d2fc8dabddb0" />
 
 Screenshot 4: Displaying the queue
+
 Display queue
+
 All pending requests are shown from the front of the queue to the back.
+
 <img width="1434" height="346" alt="4  quoe" src="https://github.com/user-attachments/assets/b14d5a19-d7bf-4479-bd10-49e5ae4c537a" />
 
 Screenshot 5: Peek
+
 Peek
+
 The request at the front of the queue is shown without removing it.
+
 <img width="722" height="234" alt="5 peek" src="https://github.com/user-attachments/assets/31b2b670-edb8-4d60-be52-10fff35593fc" />
 
 Screenshot 6: Dequeue
+
 Dequeue
+
 The request at the front of the queue is processed and removed. It is then approved or rejected depending on the available copies.
+
 <img width="1222" height="296" alt="6 deq" src="https://github.com/user-attachments/assets/67cd2fff-f4ae-4c49-9bec-d5bdd840fe9c" />
 
 Screenshot 7: FIFO behavior
+
 FIFO
+
 Three requests were registered in order and then processed in the same order. The first request added was the first one processed.
+
 Alex was served first, then Raizen, with Miguel still waiting.
+
 <img width="1260" height="288" alt="for 7" src="https://github.com/user-attachments/assets/9e442888-841a-40da-bc33-b073034a914d" />
 <img width="1046" height="282" alt="for72" src="https://github.com/user-attachments/assets/4da4caef-5493-41b1-a9a1-848a24399503" />
 <img width="1418" height="310" alt="for73" src="https://github.com/user-attachments/assets/8d66126b-6ada-4b2e-bb58-f2851a9ff0ab" />
 
 Screenshot 8: First sorting algorithm, Bubble Sort (books by title)
+
 Bubble Sort
+
 The book records before and after sorting by title from A to Z using Bubble Sort.
+
 <img width="1378" height="1052" alt="8" src="https://github.com/user-attachments/assets/615a884d-c4dc-4a81-b904-a42d2816156e" />
 <img width="1306" height="176" alt="ext" src="https://github.com/user-attachments/assets/13658b0b-c7d9-4414-af69-a5ed7bcf53ea" />
 
 Screenshot 9: Second sorting algorithm, Insertion Sort (books by publication year)
+
 Insertion Sort
+
 The book records before and after sorting by publication year from oldest to newest using Insertion Sort.
+
 <img width="1398" height="956" alt="9 insertiom" src="https://github.com/user-attachments/assets/d0564e5e-3f2b-4090-881f-68f7f15e92e5" />
 
 Screenshot 10: Input validation and error messages
+
 Input validation
+
 Invalid input, such as letters or numbers outside the menu range, is rejected with an error message and the program asks again.
 <img width="772" height="206" alt="invalid" src="https://github.com/user-attachments/assets/627e782c-4f0b-4077-a955-efdbb5ea6b98" />
 
 Screenshot 11: Empty queue message
+
 Empty queue message
+
 <img width="668" height="190" alt="last9" src="https://github.com/user-attachments/assets/3d36f6c5-9bcc-46d1-bd61-5f8f0019a1d9" />
 <img width="718" height="194" alt="last 10" src="https://github.com/user-attachments/assets/ec175b98-699f-40d1-a17b-50bfec9ed4c9" />
 
