@@ -1,11 +1,13 @@
 1. Project Title: Library Borrowing Request System
 
 2. Project Description
+   
 In a library, many students can ask to borrow books at the same time. Without a system, it is hard to know who asked first, which books are still available, and which requests are already done.
 The Library Borrowing Request System is a console-based Java program that helps with this. It keeps a list of books and lets students' borrowing requests be registered. Each request goes into a queue so the student who asked first is served first (First-In, First-Out). When a request is processed, the program checks if a copy is available. If there is one, the request is approved and the number of copies goes down by one. If not, the request is rejected. The program can also sort the book records and the borrowing records.
 The program is written in Java without OOP. It has no custom classes or objects. It only uses static methods, ArrayLists and a built-in Queue.
 
 3. Objectives
+   
 Handle borrowing requests in the order they arrive using a queue (FIFO).
 Store and manage book and request records using ArrayLists.
 Sort records using sorting algorithms written by hand, without Java's built-in sort methods.
@@ -14,6 +16,7 @@ Handle invalid input without the program crashing.
 Follow the procedural (non-OOP) approach.
 
 4. Use Cases and Features
+   
 The program has two kinds of users: the student, who asks to borrow a book, and the librarian, who manages the books and processes the requests.
 Book records:
 Option 1: Add a book (title, author, year, number of copies)
@@ -38,6 +41,7 @@ Messages are shown when the queue is empty, a book is not found, or an action ca
 Seven sample books are loaded when the program starts: The Five People You Meet in Heaven, Demian, They Both Die at the End, Have a Little Faith, To Kill a Mockingbird, Atomic Habits and Noli Me Tangere.
 
 5. Data Structure Explanation
+   
 ArrayLists
 Records are stored in parallel ArrayLists. Each list holds one field, and the same index in every list belongs to the same record. For example, index 1 in all the book lists describes the same book (Demian, by Herman Hesse, published in 1919, with 1 copy).
 Book lists:
@@ -67,11 +71,13 @@ remove(): used to cancel a specific request.
 The queue is the center of the main workflow. Every request enters the queue when it is registered, and requests are handled strictly in the order they arrived.
 
 6. Sorting Algorithm Explanation
+   
 Bubble Sort is used to sort books by title (A to Z). It compares two neighboring titles and swaps them if they are in the wrong order, and it repeats this until the list is sorted. The program stops early if a full pass makes no swaps. It was chosen because the catalog is small and the algorithm is simple.
 Insertion Sort is used to sort books by publication year (oldest to newest) and borrowing records by request number (smallest to largest). It takes one record at a time and moves it left until it is in the correct place. It was chosen because these lists are usually already almost in order, and Insertion Sort is fast in that case.
 Selection Sort is used to sort borrowing records by student name (A to Z). It finds the smallest name in the unsorted part of the list and swaps it into the next position. It was chosen because it makes very few swaps, and each swap moves a whole record across five ArrayLists.
 
 7. How to Run the Program
+   
 To run the program directly, open a terminal in the folder that has Aguzar_LibraryBorrowingSystem.java and run:
 java Aguzar_LibraryBorrowingSystem.java
 
