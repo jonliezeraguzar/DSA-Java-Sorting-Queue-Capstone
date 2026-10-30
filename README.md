@@ -1,4 +1,4 @@
-<img width="1398" height="956" alt="9 insertiom" src="https://github.com/user-attachments/assets/fe63bc86-52d4-416e-a467-2b931bdd510f" />Project Title: Library Borrowing Request System
+Project Title: Library Borrowing Request System
 
 Project Description
 In a library, many students can ask to borrow books at the same time. Without a system, it is hard to know who asked first, which books are still available, and which requests are already done.
