@@ -105,7 +105,6 @@ The queue is the center of the main workflow. Every request enters the queue whe
 
 **Requirement:** Java Development Kit (JDK) **25 or newer**.
 
-To run the program directly, open a terminal in the folder that has Aguzar_LibraryBorrowingSystem.java and run:
 
 java Aguzar_LibraryBorrowingSystem.java
 
